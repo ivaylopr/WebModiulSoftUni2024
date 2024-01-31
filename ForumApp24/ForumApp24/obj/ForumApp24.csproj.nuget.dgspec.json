@@ -1,0 +1,184 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\PR1ME\\source\\Web\\Http\\ForumApp24\\ForumApp24\\ForumApp24.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\PR1ME\\source\\Web\\Http\\ForumApp24\\ForumApp24.Core\\ForumApp24.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PR1ME\\source\\Web\\Http\\ForumApp24\\ForumApp24.Core\\ForumApp24.Core.csproj",
+        "projectName": "ForumApp24.Core",
+        "projectPath": "C:\\Users\\PR1ME\\source\\Web\\Http\\ForumApp24\\ForumApp24.Core\\ForumApp24.Core.csproj",
+        "packagesPath": "C:\\Users\\PR1ME\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PR1ME\\source\\Web\\Http\\ForumApp24\\ForumApp24.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PR1ME\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\PR1ME\\source\\Web\\Http\\ForumApp24\\ForumApp24.Infrastructure\\ForumApp24.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\PR1ME\\source\\Web\\Http\\ForumApp24\\ForumApp24.Infrastructure\\ForumApp24.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\PR1ME\\source\\Web\\Http\\ForumApp24\\ForumApp24.Infrastructure\\ForumApp24.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PR1ME\\source\\Web\\Http\\ForumApp24\\ForumApp24.Infrastructure\\ForumApp24.Infrastructure.csproj",
+        "projectName": "ForumApp24.Infrastructure",
+        "projectPath": "C:\\Users\\PR1ME\\source\\Web\\Http\\ForumApp24\\ForumApp24.Infrastructure\\ForumApp24.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\PR1ME\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PR1ME\\source\\Web\\Http\\ForumApp24\\ForumApp24.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PR1ME\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\PR1ME\\source\\Web\\Http\\ForumApp24\\ForumApp24\\ForumApp24.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PR1ME\\source\\Web\\Http\\ForumApp24\\ForumApp24\\ForumApp24.csproj",
+        "projectName": "ForumApp24",
+        "projectPath": "C:\\Users\\PR1ME\\source\\Web\\Http\\ForumApp24\\ForumApp24\\ForumApp24.csproj",
+        "packagesPath": "C:\\Users\\PR1ME\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PR1ME\\source\\Web\\Http\\ForumApp24\\ForumApp24\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PR1ME\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\PR1ME\\source\\Web\\Http\\ForumApp24\\ForumApp24.Core\\ForumApp24.Core.csproj": {
+                "projectPath": "C:\\Users\\PR1ME\\source\\Web\\Http\\ForumApp24\\ForumApp24.Core\\ForumApp24.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
