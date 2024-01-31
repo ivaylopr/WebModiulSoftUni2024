@@ -1,0 +1,14 @@
+C:\Users\PR1ME\source\Web\Http\ForumApp24\ForumApp24.Infrastructure\bin\Debug\net6.0\ForumApp24.Infrastructure.deps.json
+C:\Users\PR1ME\source\Web\Http\ForumApp24\ForumApp24.Infrastructure\bin\Debug\net6.0\ForumApp24.Infrastructure.runtimeconfig.json
+C:\Users\PR1ME\source\Web\Http\ForumApp24\ForumApp24.Infrastructure\bin\Debug\net6.0\ForumApp24.Infrastructure.dll
+C:\Users\PR1ME\source\Web\Http\ForumApp24\ForumApp24.Infrastructure\bin\Debug\net6.0\ForumApp24.Infrastructure.pdb
+C:\Users\PR1ME\source\Web\Http\ForumApp24\ForumApp24.Infrastructure\obj\Debug\net6.0\ForumApp24.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\PR1ME\source\Web\Http\ForumApp24\ForumApp24.Infrastructure\obj\Debug\net6.0\ForumApp24.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PR1ME\source\Web\Http\ForumApp24\ForumApp24.Infrastructure\obj\Debug\net6.0\ForumApp24.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\PR1ME\source\Web\Http\ForumApp24\ForumApp24.Infrastructure\obj\Debug\net6.0\ForumApp24.Infrastructure.AssemblyInfo.cs
+C:\Users\PR1ME\source\Web\Http\ForumApp24\ForumApp24.Infrastructure\obj\Debug\net6.0\ForumApp24.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\PR1ME\source\Web\Http\ForumApp24\ForumApp24.Infrastructure\obj\Debug\net6.0\ForumApp24.Infrastructure.dll
+C:\Users\PR1ME\source\Web\Http\ForumApp24\ForumApp24.Infrastructure\obj\Debug\net6.0\refint\ForumApp24.Infrastructure.dll
+C:\Users\PR1ME\source\Web\Http\ForumApp24\ForumApp24.Infrastructure\obj\Debug\net6.0\ForumApp24.Infrastructure.pdb
+C:\Users\PR1ME\source\Web\Http\ForumApp24\ForumApp24.Infrastructure\obj\Debug\net6.0\ForumApp24.Infrastructure.genruntimeconfig.cache
+C:\Users\PR1ME\source\Web\Http\ForumApp24\ForumApp24.Infrastructure\obj\Debug\net6.0\ref\ForumApp24.Infrastructure.dll

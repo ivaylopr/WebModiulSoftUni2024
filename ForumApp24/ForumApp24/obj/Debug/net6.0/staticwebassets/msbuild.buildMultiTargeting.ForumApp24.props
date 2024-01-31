@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ForumApp24.props" />
+</Project>
