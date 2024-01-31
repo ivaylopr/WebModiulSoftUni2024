@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PR1ME\\source\\Web\\Http\\ForumApp24\\ForumApp24\\ForumApp24.csproj": {}
+    "C:\\Users\\PR1ME\\Documents\\Projects\\C#Advanced\\WebModiulSoftUni2024\\ForumApp24\\ForumApp24.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PR1ME\\source\\Web\\Http\\ForumApp24\\ForumApp24\\ForumApp24.csproj": {
+    "C:\\Users\\PR1ME\\Documents\\Projects\\C#Advanced\\WebModiulSoftUni2024\\ForumApp24\\ForumApp24.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PR1ME\\source\\Web\\Http\\ForumApp24\\ForumApp24\\ForumApp24.csproj",
+        "projectUniqueName": "C:\\Users\\PR1ME\\Documents\\Projects\\C#Advanced\\WebModiulSoftUni2024\\ForumApp24\\ForumApp24.csproj",
         "projectName": "ForumApp24",
-        "projectPath": "C:\\Users\\PR1ME\\source\\Web\\Http\\ForumApp24\\ForumApp24\\ForumApp24.csproj",
+        "projectPath": "C:\\Users\\PR1ME\\Documents\\Projects\\C#Advanced\\WebModiulSoftUni2024\\ForumApp24\\ForumApp24.csproj",
         "packagesPath": "C:\\Users\\PR1ME\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PR1ME\\source\\Web\\Http\\ForumApp24\\ForumApp24\\obj\\",
+        "outputPath": "C:\\Users\\PR1ME\\Documents\\Projects\\C#Advanced\\WebModiulSoftUni2024\\ForumApp24\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PR1ME\\AppData\\Roaming\\NuGet\\NuGet.Config",
