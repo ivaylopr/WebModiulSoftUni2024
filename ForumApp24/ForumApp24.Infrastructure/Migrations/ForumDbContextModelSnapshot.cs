@@ -21,12 +21,12 @@ namespace ForumApp24.Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("ForumApp24.Infrastructure.Models.Post", b =>
+            modelBuilder.Entity("ForumApp24.Infrastructure.Data.Models.Post", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
-                        .HasComment("Primary Identifier");
+                        .HasComment("Identifire");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
@@ -34,38 +34,38 @@ namespace ForumApp24.Infrastructure.Migrations
                         .IsRequired()
                         .HasMaxLength(1500)
                         .HasColumnType("nvarchar(1500)")
-                        .HasComment("Post Content");
+                        .HasComment("Post content");
 
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)")
-                        .HasComment("Post Title");
+                        .HasComment("Post title");
 
                     b.HasKey("Id");
 
                     b.ToTable("Posts");
 
-                    b.HasComment("Post model responsive about the Db information");
+                    b.HasComment("Db post model");
 
                     b.HasData(
                         new
                         {
                             Id = 1,
                             Content = "First post content",
-                            Title = "First Title"
+                            Title = "My first post"
                         },
                         new
                         {
                             Id = 2,
                             Content = "Second post content",
-                            Title = "Second Title"
+                            Title = "My second post"
                         },
                         new
                         {
                             Id = 3,
                             Content = "Third post content",
-                            Title = "Third Title"
+                            Title = "My third post"
                         });
                 });
 #pragma warning restore 612, 618

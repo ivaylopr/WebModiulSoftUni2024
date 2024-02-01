@@ -1,15 +1,18 @@
+using ForumApp24.Core.Contracts;
+using ForumApp24.Core.Services;
 using ForumApp24.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
-builder.Services.AddControllersWithViews();
-string connection = builder.Configuration.GetConnectionString("DefaultConnection");
+string connectionString = builder.Configuration.GetConnectionString("DefaultConnectionString");
 builder.Services.AddDbContext<ForumDbContext>(options =>
 {
-    options.UseSqlServer(connection);
+    options.UseSqlServer(connectionString);
 });
+// Add services to the container.
+builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IPostService, PostService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
