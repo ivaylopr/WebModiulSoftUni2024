@@ -16,5 +16,41 @@ namespace ForumApp24.Controllers
             IEnumerable<PostModel> posts = await postService.GetAllPostsAsync();
             return View(posts);
         }
+        [HttpGet]
+        public  IActionResult Add()
+        {
+            var model = new PostModel();
+            return View(model);
+        }
+        [HttpPost]
+        public async Task<IActionResult> Add(PostModel model)
+        {
+            if (ModelState.IsValid==false)
+            {
+                return View(model);
+            }
+            await postService.AddAssync(model);
+            return RedirectToAction(nameof(Index));   
+        }
+        [HttpGet]
+        public async Task<IActionResult> Edit(int id)
+        {
+            PostModel? post = await postService.GetByIdAsync(id);
+            if (post != null)
+            {
+                ModelState.AddModelError("All", "Invalid post");
+            }
+            return View(post);
+        }
+        [HttpPost]
+        public async Task<IActionResult> Edit(PostModel model)
+        {
+            if (ModelState.IsValid==false)
+            {
+                return View(model);
+            }
+            await postService.EditAsync(model);
+            return RedirectToAction(nameof(Index));
+        }
     }
 }
