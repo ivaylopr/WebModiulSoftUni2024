@@ -33,15 +33,29 @@ namespace ForumApp24.Core.Services
            
         }
 
+		public async Task DeleteAsync(int id)
+		{
+			var entity = await context.FindAsync<Post>(id);
+			if (entity == null)
+			{
+				throw new ApplicationException("Invalid post");
+			}
+            context.Remove(entity);
+            await context.SaveChangesAsync();
+		}
+
+		
+
 		public async Task EditAsync(PostModel model)
 		{
-            var entity = await context.Posts.FindAsync<Post?>(model.Id);
+            var entity = await context.FindAsync<Post>(model.Id);
             if (entity == null)
             {
                 throw new ApplicationException("Invalid post");
             }
             entity.Title = model.Title;
-            entity.Con
+            entity.Content = model.Content;
+            await context.SaveChangesAsync();
 		}
 
 		public async Task<IEnumerable<PostModel>> GetAllPostsAsync()

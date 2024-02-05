@@ -36,7 +36,7 @@ namespace ForumApp24.Controllers
         public async Task<IActionResult> Edit(int id)
         {
             PostModel? post = await postService.GetByIdAsync(id);
-            if (post != null)
+            if (post == null)
             {
                 ModelState.AddModelError("All", "Invalid post");
             }
@@ -50,6 +50,12 @@ namespace ForumApp24.Controllers
                 return View(model);
             }
             await postService.EditAsync(model);
+            return RedirectToAction(nameof(Index));
+        }
+        [HttpPost]
+        public async Task<IActionResult> Delete(int id)
+        {
+            await postService.DeleteAsync(id);
             return RedirectToAction(nameof(Index));
         }
     }
