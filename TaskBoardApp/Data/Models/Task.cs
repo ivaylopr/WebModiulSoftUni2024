@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TaskBoardApp.Data.Models
 {
+    [Comment("Board Tasks")]
     public class Task
     {
         [Key]
@@ -27,9 +28,10 @@ namespace TaskBoardApp.Data.Models
         [Required]
         [Comment("The user who owe the task")]
         public string OwnerId { get; set; } = string.Empty;
+        
         [ForeignKey(nameof(OwnerId))]
-        [Comment("Owner of the task")]
-        public IdentityUser Owner { get; set; } = new IdentityUser();
+        
+        public IdentityUser Owner { get; set; } = null!;
     }
 }
 //⦁	Id – a unique integer, Primary Key
