@@ -16,7 +16,7 @@ namespace TaskBoardApp.Models.Task
             MinimumLength = DataConstants.Task.TitleMinLenght,
             ErrorMessage = "Description should be between {2} and {1} characters long")]
         public string Description { get; set; } = string.Empty;
-        public int BoardId { get; set; }
+        public int? BoardId { get; set; } 
         public IEnumerable<TaskBoardModel> Boards { get; set; } = new List<TaskBoardModel>();
     }
 }
