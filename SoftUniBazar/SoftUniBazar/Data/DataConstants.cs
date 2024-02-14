@@ -12,5 +12,8 @@
 
         public const int CategoryNameMinLenght = 3;
         public const int CategoryMaxLenght = 15;
+
+        public const string ErrorStringLenghtMessage = "The {0} field must be between {2} and {1}!";
+        public const string ErrorRequiredMessage = "The field is required!";
     }
 }
