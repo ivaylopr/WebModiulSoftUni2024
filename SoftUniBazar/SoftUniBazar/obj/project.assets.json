@@ -11500,11 +11500,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PR1ME\\Desktop\\SoftUniBazar\\SoftUniBazar\\SoftUniBazar.csproj",
+      "projectUniqueName": "C:\\Users\\PR1ME\\Documents\\Projects\\C#Advanced\\WebModiulSoftUni2024\\SoftUniBazar\\SoftUniBazar\\SoftUniBazar.csproj",
       "projectName": "SoftUniBazar",
-      "projectPath": "C:\\Users\\PR1ME\\Desktop\\SoftUniBazar\\SoftUniBazar\\SoftUniBazar.csproj",
+      "projectPath": "C:\\Users\\PR1ME\\Documents\\Projects\\C#Advanced\\WebModiulSoftUni2024\\SoftUniBazar\\SoftUniBazar\\SoftUniBazar.csproj",
       "packagesPath": "C:\\Users\\PR1ME\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PR1ME\\Desktop\\SoftUniBazar\\SoftUniBazar\\obj\\",
+      "outputPath": "C:\\Users\\PR1ME\\Documents\\Projects\\C#Advanced\\WebModiulSoftUni2024\\SoftUniBazar\\SoftUniBazar\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PR1ME\\AppData\\Roaming\\NuGet\\NuGet.Config",

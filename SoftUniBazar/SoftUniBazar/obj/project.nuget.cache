@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vMyObGe764nLHFKwGif4+Bk2gQIw6mpEu5+sBwZLjv46nkcTyeCibb1dq5zpUaLoRerkergyPm8/RxpMyhcDxA==",
+  "dgSpecHash": "DWuVHQXXKhl11xWEBWYWcFmxKeZiB3SKROWmSHJvy19n0/+pNetZ83Q+SXN+ZLLtmu3X+Bz4FxRSEC+whYO7mQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PR1ME\\Desktop\\SoftUniBazar\\SoftUniBazar\\SoftUniBazar.csproj",
+  "projectFilePath": "C:\\Users\\PR1ME\\Documents\\Projects\\C#Advanced\\WebModiulSoftUni2024\\SoftUniBazar\\SoftUniBazar\\SoftUniBazar.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PR1ME\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\PR1ME\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
