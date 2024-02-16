@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "25SR3goc0L4e4RzzHkLyznAZ8BaVFyoR6T3QPs1EPvmN4VmdiiB8Owrz2o4c80oGF/+AkKMrZtVNCB1dbETHdg==",
+  "dgSpecHash": "uox1eUx4YMdf+jIy+d3VZFoMkFKAeNViEtN8++aSgygJ2uUs+3Qh9s5nBTanCWhMFhZIqe096/yQ8m3XEdDY/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PR1ME\\Desktop\\10.Exam-Preparation-Library-Skeleton (1)\\Library\\Library.csproj",
+  "projectFilePath": "C:\\Users\\PR1ME\\Documents\\Projects\\C#Advanced\\WebModiulSoftUni2024\\10.Exam-Preparation-Library-Skeleton (1)\\Library\\Library.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PR1ME\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\PR1ME\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

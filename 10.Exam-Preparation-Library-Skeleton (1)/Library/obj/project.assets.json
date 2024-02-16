@@ -11500,11 +11500,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PR1ME\\Desktop\\10.Exam-Preparation-Library-Skeleton (1)\\Library\\Library.csproj",
+      "projectUniqueName": "C:\\Users\\PR1ME\\Documents\\Projects\\C#Advanced\\WebModiulSoftUni2024\\10.Exam-Preparation-Library-Skeleton (1)\\Library\\Library.csproj",
       "projectName": "Library",
-      "projectPath": "C:\\Users\\PR1ME\\Desktop\\10.Exam-Preparation-Library-Skeleton (1)\\Library\\Library.csproj",
+      "projectPath": "C:\\Users\\PR1ME\\Documents\\Projects\\C#Advanced\\WebModiulSoftUni2024\\10.Exam-Preparation-Library-Skeleton (1)\\Library\\Library.csproj",
       "packagesPath": "C:\\Users\\PR1ME\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PR1ME\\Desktop\\10.Exam-Preparation-Library-Skeleton (1)\\Library\\obj\\",
+      "outputPath": "C:\\Users\\PR1ME\\Documents\\Projects\\C#Advanced\\WebModiulSoftUni2024\\10.Exam-Preparation-Library-Skeleton (1)\\Library\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PR1ME\\AppData\\Roaming\\NuGet\\NuGet.Config",
